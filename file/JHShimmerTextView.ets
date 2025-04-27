@@ -24,8 +24,8 @@
 @Component
 export default struct JHShimmerTextView {
   @Prop text: ResourceStr = '文字微光效果~Haomissyou';
-  @Prop color: Color = Color.Red;
-  @Prop shimmerColor: Color = Color.White;
+  @Prop color: ResourceColor = Color.Red;
+  @Prop shimmerColor: ResourceColor = Color.White;
   @Prop fontSize: number | string | Resource = 24;
   @Prop fontWeight: number | FontWeight | string = FontWeight.Bold;
   @Prop progressValue: number = 0;
