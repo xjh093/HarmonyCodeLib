@@ -28,8 +28,8 @@ export default struct JHProgressTextView {
   @Prop fontWeight: number | FontWeight | string = FontWeight.Bold;
   @Prop progressValue: number = 0;
   @Prop animationDuration: number = 3000;
-  @Prop startColor: Color = Color.Red;
-  @Prop endColor: Color = Color.Gray;
+  @Prop startColor: ResourceColor = Color.Red;
+  @Prop endColor: ResourceColor = Color.Gray;
   @Prop repeatCount: number = -1;
 
   // 动画
